@@ -434,9 +434,9 @@ showMoreCards1();
 			}
 		}
 	}
-
+// 
 function slider(el, index, tar){
-	counter = 0;
+	let counter = 0;
 	return function(el, index, tar){
 		let element = el.closest('.slider'),
 		sTrack = element.querySelector('.slider-track'),
